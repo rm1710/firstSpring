@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Home page</title>
 </head>
 <body>
-<h1>jay Shree ram</h1>
-<h2>Ritesh Mishra</h2>
+	<h1>This is home page</h1>
+	<h1>Called by home controller</h1>
+	<h1>url/home</h1>
 </body>
 </html>
