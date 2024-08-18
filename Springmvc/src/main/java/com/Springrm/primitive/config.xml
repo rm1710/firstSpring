@@ -7,29 +7,28 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
         
         
-        <bean name="st1" class="com.Springrm.primitive.Student">
-        	<property name="id">
-        		<value>101</value>
-        	</property>
-        	<property name="name">
-        		<value>Ritesh</value>
-        	</property>
+        <bean name="st1" class="com.Springrm.collection.Student">
+        	<property name="name" value="Spring"/>
         	<property name="address">
-        		<value>india</value>
+        		<list>	
+        			<value>India</value>
+        			<value>usa</value>
+        		</list>
         	</property>
+        	<property name="phno">
+        		<set>	
+        			<value>124</value>
+        			<value>3345</value>
+        		</set>
+        	</property>
+        	<property name="course">
+        		<map>	
+        			<entry key="java" value="2month"/>
+        			<entry key="c++" value="1month"></entry>
+        		</map>
+        	</property>
+        		
         </bean>
-        <bean name="st2" class="com.Springrm.primitive.Student">
-        	<property name="id">
-        		<value>102</value>
-        	</property>
-        	<property name="name">
-        		<value>Ritesh</value>
-        	</property>
-        	<property name="address">
-        		<value>india</value>
-        	</property>
-        </bean>
-        
 		
 
 </beans>

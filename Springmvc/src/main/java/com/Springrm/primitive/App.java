@@ -8,6 +8,9 @@ public class App {
 	public static void main(String[] args) {
 	
 		ApplicationContext context= new ClassPathXmlApplicationContext("com/Springrm/primitive/config.xml");
-	
+		Student st=context.getBean("st1",Student.class);
+		Student st2=context.getBean("st2",Student.class);
+		System.out.println(st);
+		System.out.println(st2);
 	}
 }

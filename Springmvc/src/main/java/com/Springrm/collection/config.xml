@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        
+        <bean name="st1" class="com.Springrm.primitive.Student">
+        	<property name="id" value="101"/>
+ 
+        	<property name="name" value="Ritesh"/>
+        		
+        	<property name="address" value="india"/>
+        		
+        </bean>
+        <bean name="st2" class="com.Springrm.primitive.Student">
+        	<property name="id">
+        		<value>102</value>
+        	</property>
+        	<property name="name">
+        		<value>Ritesh</value>
+        	</property>
+        	<property name="address">
+        		<value>india</value>
+        	</property>
+        </bean>
+        
+		
+
+</beans>
